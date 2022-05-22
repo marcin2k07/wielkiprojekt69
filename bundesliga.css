@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+   background-color: black;
+   
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(75, 239, 15);
+    color: black;
+   
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+ 
+.b1{
+    background-color: rgb(255, 0, 0);
+
+    padding: 20px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h3{
+    margin-left: 5%;
+}
+p{
+    width: 70%;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5%;
+}
+h5{
+    font-size: 18px;
+    border: 3px solid black;
+    padding: 10px;
+}
+.zdj1{
+  width: 40%;
+  margin-left: 10%;
+}
+
+.zdj2{
+    width: 10vw;
+    
+    border: 10px black double;
+
+}
+.zdj5{
+    width: 50%;
+   
+    margin-left: 15%;
+    margin-top: 2%;
+    border: 5px double black
+}
+.łącznik{
+   
+    background-color: rgb(15, 239, 179) ;
+
+}
+caption{
+    font-size: 30px;
+    
+}
+.łącznik1{
+    
+    background-color: rgb(15, 187, 239);
+    
+   
+}
+table{
+    border: 3px solid black;
+    width: 60vw;
+    
+ 
+  
+   
+}
+.d0{
+    width: 30%;
+}
+
+.d1{
+    width: 55%;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    margin: 25px;
+}
+.d2{
+    width: 15%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+  
+}
+.d3{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(180deg, rgb(75, 239, 15) , rgb(15,239,179))
+}
+.d4{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(15,239,179);
+    color:rgb(0, 0, 0);
+    margin-left: 5%;
+    
+    padding: 10px;
+}
+.d5{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(180deg, rgb(15,239,179) , rgb(15, 187, 239))
+}
+.d6{
+    background-color: rgb(15, 187, 239);
+}
+.d7{
+  
+   
+   
+    background-color: rgb(15, 187, 239);
+    color: black;
+    margin-left: 20%;
+    
+   
+}
+.d8{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(180deg, rgb(15, 187, 239) , rgb(15, 75, 239))
+}
+.d9{
+    background-color: rgb(15, 75, 239);
+    color: rgb(0, 0, 0);
+    display: block;
+}
+.d10{
+    width: 70%;
+    margin-left: 15%;
+    
+
+}
+.d11{
+    background: linear-gradient(180deg, rgb(15, 75, 239) , rgb(0, 0, 0));
+    width: 100%;
+    height: 70px;
+
+
+    
+}
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.d12{
+    width: 20%;
+}
+.d13{
+    width: 60%;
+    height: 100px;
+    background-color: gray;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+.d15{
+    width: 40%;
+    margin-left: 5%;
+    text-align: center;
+}
+.d16{
+    width: 40%;
+    text-align: center;
+}
+.d17{
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+}
+
+.d18{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+.d19{
+    background-color: rgb(0, 0, 0);
+    width: 45%;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 760px) {
+    table{
+        width: 40vh;
+        
+       
+        font-size: 10px;
+        margin-left:  -15%;
+        
+    }
+    p{
+        width: 100%;
+    }
+    .zdj4{
+        display: none;
+    }
+    .d1{
+        width: 65%;
+    }
+    .d0{
+       display: none;
+    }
+    p{
+        margin-left: 1%;
+    }
+    
+ 
+    
+
+  
+}
